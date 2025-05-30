@@ -1,14 +1,25 @@
 # To-Do-List
 This is our Activty in our ITEC-106A ELECTIVE 2
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+react-js-to-do-list/
+│
+├── node_modules/           # Auto-generated folder containing all project dependencies
+├── public/
+│   └── images/             # Public images accessible directly by the browser
+│
+├── src/                    # Main source code of the React app
+│   ├── assets/             # Static assets like images, fonts, etc.
+│   ├── components/         # Reusable UI components
+│   ├── page/               # Page-level components (LandingPage)
+│   ├── style/              # Styling files (CSS)
+│   ├── App.jsx             # Root component that contains the main app layout
+│   └── main.jsx            # Entry point that renders App.jsx to the DOM
+│
+├── .gitignore              # Specifies which files Git should ignore
+├── eslint.config.js        # ESLint configuration for code linting
+├── index.html              # HTML template for mounting the React app
+├── package.json            # Project metadata and dependencies
+├── package-lock.json       # Locks dependency versions for consistency
+├── README.md               # Project documentation
+└── vite.config.js          # Vite configuration for build and development
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.

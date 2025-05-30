@@ -1,2 +1,2 @@
 # To-Do-List
-for activity
+This is our Activty in our ITEC-106A ELECTIVE 2
